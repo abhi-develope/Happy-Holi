@@ -19,15 +19,18 @@ body{
 }
 
 p{
-    position: relative;
-    bottom: 80px;
+  position: relative;
+  bottom: 80px;
   color: white;
   font-family: "Alkalami", serif;
+  user-select: none;
+  pointer-events: none;
 }
 .txt{
     position: relative;
     bottom: 80px;
-   
+    user-select: none;
+    pointer-events: none;  
     display: inline;
     color: #FAA62F;
     font-family: "Molle", cursive;
